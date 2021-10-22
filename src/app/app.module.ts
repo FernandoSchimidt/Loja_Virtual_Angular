@@ -17,6 +17,10 @@ import { ProductService } from './services/product.service';
 import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
+import { PageNotFoundComponent } from './components/shared/page-not-found/page-not-found.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ModalComponent } from './components/shopping-cart/product-list/modal/modal.component';
+
 
 @NgModule({
   declarations: [
@@ -31,13 +35,18 @@ import { RegisterComponent } from './components/register/register.component';
     CartItemComponent,
     ProductItemComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    PageNotFoundComponent,
+    ModalComponent
+  
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    
+    FormsModule,
+    ReactiveFormsModule
+
   ],
   providers: [
     ProductService

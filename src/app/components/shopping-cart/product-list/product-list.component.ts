@@ -36,18 +36,18 @@ export class ProductListComponent implements OnInit {
         this.wishlist = res })
   }
 
-  getProductById(id: string) {
-    this.productService.getProductById(id)
-      .subscribe(prod => {
-        this.product = prod;
-      })
-  }
+  // getProductById(id: string) {
+  //   this.productService.getProductById(id)
+  //     .subscribe(prod => {
+  //       this.product = prod;
+  //     })
+  // }
 
-  getByName(name: string) {
-    this.productService.getProductByName(name)
-      .subscribe(prod => {
-        this.productList = prod
-      })
-  }
+  // getByName(name: string) {
+  //   this.productService.getProductByName(name)
+  //     .subscribe(prod => {
+  //       this.productList = prod
+  //     })
+  // }
 
 }

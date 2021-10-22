@@ -25,11 +25,6 @@ export class ProductItemComponent implements OnInit {
 
   ngOnInit(): void {
 
-    // this.wishlistService.getWishlist()
-    // .subscribe(res=>{
-    // })
-
-
   }
 
   handleAddToCart() {
@@ -51,6 +46,10 @@ export class ProductItemComponent implements OnInit {
         this.addToWishlist = false
       })
 
+  }
+
+  details(){
+    console.log(this.productItem.id)
   }
 
 }

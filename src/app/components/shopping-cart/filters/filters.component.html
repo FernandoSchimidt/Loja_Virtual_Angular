@@ -1,6 +1,6 @@
 <div class="card filters">
 
-    <div class="card-header">Filters</div>
+    <div class="card-header">Filtros</div>
     <div class="card-body">
         <form>
             <div class="form-group">
@@ -19,10 +19,10 @@
         <form>
             <div class="form-group">
                 <label for="from"></label>
-                <input type="text" id="name" class="form-control" >
+                <input type="text" id="name" class="form-control" (keyup)="findByName($event)" >
             </div>
 
-            <button class="btn btn-primary btn-block btn-sm mt-2">Filter by name</button>
+            <button class="btn btn-primary btn-block btn-sm mt-2">Por nome</button>
         </form>
     </div>
 </div>

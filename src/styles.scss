@@ -1,19 +1,26 @@
-.cart-item{
+.cart-item {
     font-size: small;
 }
-.filters{
+.filters {
     font-size: small;
 }
-.card, .form-control, .btn{
+.card,
+.form-control,
+.btn {
     border-radius: 0;
 }
-.list-group-item:first-child,.list-group-item:last-child{
+.list-group-item:first-child,
+.list-group-item:last-child {
     border-radius: 0;
 }
-.product-btn{
+.product-btn {
     font-size: smaller;
 }
-.fa-heart{
+.fa-heart {
     color: palevioletred;
     cursor: pointer;
 }
+.login-card h3 {
+text-transform: uppercase;
+}
+
